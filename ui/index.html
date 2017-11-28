@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Вячеслав Дьяченко - качественный и красивый дизайн</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+</head>
+
+<body>
+
+    <!--
+    <div class="#" uk-sticky uk-scrollspy="target: > div; cls:uk-animation-fade; delay: 500" uk-scrollspy-nav>
+
+    </div>
+    -->
+
+
+    <div class="uk-width-1-1 uk-height-viewport" id="view_1" style="background: url(img/bg-web.jpg) no-repeat center; padding-top: 0px; background-size: cover;" uk-parallax="bgy: -100;">
+        <div class="top_menu_faded">
+            <div class="uk-position-center">
+                <a href="#view_2" class="menu_faded" uk-scroll="duration = 300; easing = easeOutExpo;">Обо мне</a>
+                <a href="#view_3" class="menu_faded" uk-scroll="duration = 600; easing = easeOutExpo;">Проекты</a>
+                <a href="#view_4" class="menu_faded" uk-scroll="duration = 900; easing = easeOutExpo;">Портфолио</a>
+                <a href="#view_5" class="menu_faded" uk-scroll="duration = 1000; easing = easeOutExpo;">Контакты</a>
+            </div>
+        </div>
+        <div class="avatar uk-position-center uk-border-circle" style="background: url(img/avatar.jpg) rgba(0,0,0,0.2); background-size: cover; z-index: 10;"></div>
+        <div class="profile_name uk-position-center" style="z-index: 10;">
+            Вячеслав Дьяченко
+        </div>
+    </div>
+
+    <div class="uk-width-1-1 uk-height-viewport" id="view_2" style="background: url(img/bg-about.jpg) rgba(0,0,0,0.2) center; padding-top: 0px; background-size: cover;">
+        <div class="top_menu" uk-sticky uk-scrollspy="target: > div; cls:uk-animation-fade; delay: 1000" uk-scrollspy-nav>
+            <div class="uk-position-center">
+                <a href="#view_1" class="menu_button" uk-scroll>Главная</a>
+                <a href="#view_2" class="menu_button" uk-scroll>Обо мне</a>
+                <a href="#view_3" class="menu_button" uk-scroll>Проекты</a>
+                <a href="#view_4" class="menu_button" uk-scroll>Портфолио</a>
+                <a href="#view_5" class="menu_button" uk-scroll>Контакты</a>
+            </div>
+        </div>
+        <div class="block_square uk-box-shadow-large">
+            <h2 class="uk-position-top-center uk-margin-small-top">Обо мне</h2>
+            <p class="uk-position-center uk-padding-small">
+                <!-- Текст ОБО МНЕ -->
+            </p>
+        </div>
+    </div>
+
+    <div class="uk-width-1-1 uk-height-viewport" id="view_3" style="background: url(img/bg-projects5.jpg) rgba(0,0,0,0.2) center; padding-top: 0px; background-size: cover;">
+        <div class="project_block mobacon_bg">
+            <div class="project_avatar mobacon_avatar"></div>
+            <div class="project_card">
+                <h3 class="mobacon_title">[MOBACON]</h3>
+                <p>
+                    В&nbsp;рамках проекта [MOBACON] была создана уникальная графическая концепция,
+                    благодаря которой стало возможным объединить различные MOBA-игры на&nbsp;одной тематической площадке.
+                </p>
+                <p>
+                    Команда проекта выполнило колоссальную работу по&nbsp;проработке фирменного стиля!
+                </p>
+            </div>
+            <div class="more_info_href">Подробнее</div>
+        </div> <!-- Проект MOBACON -->
+        <div class="project_block mobacon_bg">
+            <div class="project_avatar mobacon_avatar"></div>
+            <div class="project_card">
+                <h3 class="mobacon_title">[GameDude]</h3>
+                <p>
+                    В&nbsp;рамках проекта [GameDude] планируется создать уникальную площадку для взаимодействия игроков.
+                </p>
+                <p>
+                    Команда проекта выполнило колоссальную работу по построение уникальной архитектуры базы данных, а так же адаптивности данного сайта.
+                </p>
+            </div>
+            <div class="more_info_href">Подробнее</div>
+        </div> <!-- Проект GameDude -->
+    </div>
+
+    <div class="uk-width-1-1 uk-height-viewport" id="view_4" style="background: url(img/bg_portfolio.jpg) rgba(255,0,0,0.2) center no-repeat; background-size: cover;">
+        <ul class="portfolio_heading" uk-switcher="animation: uk-animation-fade">
+            <li class="portfolio_heading_card">
+                <div class="portfolio_heading_card_logo" style="background: url(img/logo_nails.svg); background-size:cover;"></div>
+                <div class="portfolio_heading_card_title">
+                    LevelUp Nails
+                </div>
+            </li>
+            <li class="portfolio_heading_card">
+                <div class="portfolio_heading_card_logo"></div>
+                <div class="portfolio_heading_card_title">
+                    Лига защиты Должников
+                </div>
+            </li>
+            <li class="portfolio_heading_card">
+                <div class="portfolio_heading_card_logo"></div>
+                <div class="portfolio_heading_card_title">
+                    Типография
+                </div>
+            </li>
+        </ul>
+
+        <ul class="uk-switcher portfolio_container">
+            <li>
+                <div class="portfolio_container_mockup_mobile">
+                    <div class="portfolio_container_mockup_mobile_frame">
+                        <iframe src="../nails/index.html" class="iframe_iphone_8_plus">
+
+                        </iframe>
+                    </div>
+                </div>
+                <div class="portfolio_container_description">
+                    <h3 style="color: #f8dbe9;">Адаптивная верстка сайта для LevelUp Nails</h3>
+                    <p>
+                        На&nbsp;сегодняшний день адаптивная верстка является очень важным моментом для компаний.
+                        И&nbsp;очень важно, чтобы пользователь получал возможность использовать весь функционал web-страницы как с&nbsp;компьютера,
+                        так и&nbsp;мобильных устройств.<br>
+                        Простая и&nbsp;быстрая адаптивная верстка по&nbsp;готовому макету&nbsp;&mdash; услада для рук верстальщика.
+                    </p>
+                    <a href="../nails/index.html" style="color: #f8dbe9;">Посмотреть полную версию сайта</a>
+                    <br>
+                    <a href="#" style="color: #f8dbe9;">Прочитать про особенности верстки данного проекта</a>
+                </div>
+
+            </li> <!-- LevelUp Nails -->
+            <li>
+                <!-- Лига Защиты Должников -->
+            </li>
+            <li>
+                <!-- Типография -->
+            </li>
+        </ul>
+    </div>
+
+    <div class="uk-width-1-1 uk-height-viewport" id="view_5" style="background: url(img/bg_contacts.jpg) rgba(255,0,0,0.2) center no-repeat; background-size: cover; padding-top: 40px;">
+        <div class="contacts_container">
+            <h2>Связаться со мной через:</h2>
+            <h3>Е-mail:</h3>
+            <p>
+                <a href="mailto:gamelinkstv@gmail.com">gamelinkstv@gmail.com</a><br>
+                <a href="mailto:boxmobacon@gmail.com">boxmobacon@gmail.com</a><br>
+                <a href="mailto:gamedudeweb@gmail.com">gamedudeweb@gmail.com</a>
+            </p>
+            <h3>Социальные сети:</h3>
+            <p>
+                <a href="http://vk.com/slavotyk">ВКонтакте</a><br>
+                <a href="https://www.instagram.com/thisdone/">Инстаграм</a>
+            </p>
+        </div>
+    </div>
+
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<!--МЕСТО ДЛЯ СКРИПТОВ АНАЛИТИКИ И ПРОЧЕЕ-->
+
+</html>

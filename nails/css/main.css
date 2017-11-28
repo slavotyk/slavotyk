@@ -1,0 +1,632 @@
+@font-face{
+    font-family: "Bodoni Cyrillic";
+    src: url('/nails/fonts/BodoniFixed.ttf');
+}
+
+@font-face{
+    font-family: "Bodoni Letter";
+    src: url('/nails/fonts/BOD_R.ttf');
+}
+
+@font-face{
+    font-family: "Proxima Nova Italic";
+    src: url('/nails/fonts/ProximaNovaItalic.otf');
+}
+
+@font-face{
+    font-family: "Proxima Nova Regular";
+    src: url('/nails/fonts/ProximaNovaRegular.otf');
+}
+
+@font-face{
+    font-family: "Proxima Nova Bold";
+    src: url('/nails/fonts/ProximaNovaBold.otf');
+}
+
+@font-face{
+    font-family: "Proxima Nova SemiBold";
+    src: url('/nails/fonts/ProximaNovaSemibold.otf');
+}
+
+@font-face{
+    font-family: "Minion Pro";
+    src: url('/nails/fonts/MinionPro-MediumIt.otf');
+}
+
+Proxima_describe_gray{
+    font-family: "Proxima Nova Italic";
+    font-size: 18px;
+    padding-bottom: 30px;
+    color: #999;
+    opacity: 0.9;
+}
+
+Proxima_describe_gray_m{
+    font-family: "Proxima Nova Italic";
+    font-size: 12px;
+    padding-bottom: 10px;
+    color: #999;
+    opacity: 0.9;
+}
+
+.Bodoni_title_white{
+    font-family: "Bodoni Cyrillic";
+    font-size: 40px;
+    letter-spacing: 2px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    color: #fff;
+    opacity: 0.9;
+}
+Bodoni_title_black{
+    font-family: "Bodoni Cyrillic";
+    font-size: 40px;
+    letter-spacing: 2px;
+    padding-bottom: 30px;
+    color: #000;
+}
+Bodoni_title_black_m{
+    font-family: "Bodoni Cyrillic";
+    font-size: 40px;
+    letter-spacing: 2px;
+    padding-bottom: 5px;
+    color: #000;
+}
+Bodoni_title_black_small{
+    font-family: "Bodoni Cyrillic";
+    font-size: 34px;
+    letter-spacing: 2px;
+    padding-bottom: 30px;
+    color: #000;
+    line-height: 60px;
+}
+vio_title{
+    color: #964B9F;
+    font-size: 20px;
+    line-height: 18px;
+    font-family: "Proxima Nova SemiBold";
+}
+
+.vio_title{
+    color: #964B9F;
+    font-size: 20px;
+    line-height: 18px;
+    font-family: "Proxima Nova SemiBold";
+}
+
+.master_type{
+    font-family: 'Proxima Nova Regular';
+    color: #000;
+    font-size: 11pt;
+}
+
+.instagram_type{
+    font-family: 'Proxima Nova SemiBold';
+    color: #000;
+    font-size: 11pt;
+}
+.master_type_m{
+    font-family: 'Proxima Nova Regular';
+    color: #000;
+    font-size: 7pt;
+}
+
+.instagram_type_m{
+    font-family: 'Proxima Nova SemiBold';
+    color: #000;
+    font-size: 7pt;
+}
+
+
+.describe_lil_black{
+    color: #0e0a0b;
+    font-family: "Proxima Nova Regular";
+    font-size: 13px;
+    line-height: 16px;
+    margin-top: 10px;
+}
+
+.describe_lil_black_m{
+    color: #0e0a0b;
+    font-family: "Proxima Nova Regular";
+    font-size: 11px;
+    line-height: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.vio_href{
+    color: #964B9F;
+    margin-top: -10px;
+    margin-right: 30px;
+    font-family: 'Minion Pro';
+    text-decoration: underline;
+    letter-spacing: 2px;
+    font-style: italic;
+    cursor: pointer;
+}
+.vio_href_m{
+    color: #964B9F;
+    margin-bottom: 20px;
+    font-family: 'Minion Pro';
+    text-decoration: underline;
+    letter-spacing: 2px;
+    font-style: italic;
+    cursor: pointer;
+}
+.vio_href2{
+    color: #964B9F;
+    margin-top: -10px;
+    margin-right: 100px;
+    font-family: 'Minion Pro';
+    text-decoration: underline;
+    letter-spacing: 2px;
+    font-style: italic;
+    cursor: pointer;
+}
+
+.top_block{
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 160px;
+    background: rgba(181,39,27,1);
+}
+
+.top_header{
+    display: block;
+    position: relative;
+    float: left;
+    height: 120px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 5;
+}
+
+.logo_place{
+    display: block;
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+.logo_pic{
+    display: block;
+    position: relative;
+    float: left;
+    text-align: center;
+    background-size: cover;
+    margin: 5px 40px 5px 40px;
+    width: 110px;
+    height: 110px;
+    z-index: 10000;
+}
+
+.logo_title{
+    display: block;
+    position: relative;
+    float: left;
+    width: calc(100% - 190px);
+    text-align: center;
+    /*background: white;*/
+    color: #fff;
+}
+
+.contact_place{
+    display: block;
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    top: 0px;
+    right: 0px;
+}
+
+.top_menu{
+    display: block;
+    position: relative;
+    float: left;
+    height: 40px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 5;
+    background: #fff;
+}
+
+.top_menu_faded{
+    display: block;
+    position: absolute;
+    float: left;
+    height: 40px;
+    width: 100%;
+    top: 50px;
+    left: 0px;
+    z-index: 5;
+}
+
+.menu_button{
+    display: block;
+    float: left;
+    position: relative;
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    width: 170px;
+    background: #fff;
+    color: rgba(60,71,80,1);
+    transition: 200ms;
+    box-shadow: rgba(0,0,0,0.0) 0px 0px 0px;
+    border-bottom: 0px solid rgba(60,71,80,1);
+}
+
+.menu_button:hover{
+    text-decoration: none;
+    background: rgba(60,71,80,1);
+    color: #fff;
+    box-shadow: rgba(0,0,0,0.4) 0px 0px 30px;
+    border-bottom: 0px solid rgba(60,71,80,1);
+}
+
+.menu_faded{
+    display: block;
+    float: left;
+    position: relative;
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    font-size: 14px;
+    color: #fff;
+    transition: 200ms;
+    font-family: 'Proxima Nova SemiBold';
+}
+
+.menu_faded_m{
+    display: block;
+    width: 100%;
+    float: left;
+    position: relative;
+    text-align: center;
+    line-height: 30px;
+    height: 30px;
+    font-size: 12px;
+    color: #fff;
+    transition: 200ms;
+    font-family: 'Proxima Nova SemiBold';
+}
+
+.menu_faded:hover{
+    text-decoration: none;
+    color: #ebc7ff;
+}
+
+.menu_faded_m:hover{
+    text-decoration: none;
+    color: #ebc7ff;
+}
+
+.red_title{
+    display: block;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    color: rgba(1255,255,255,1);
+    font-weight: bold;
+    top: 30px;
+    font-size: 40px;
+    line-height: 40px;
+    transition: 500ms;
+}
+
+.red_title:hover{
+    color: rgba(255,255,255,1);
+    text-decoration: none;
+}
+
+.black_title{
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 70px;
+    text-align: center;
+    color: rgba(255,255,255,1);
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.avatar{
+    background: rgba(0,0,0,0.2);
+    display: block;
+    position: absolute;
+    top: 300px;
+    height: 230px;
+    width: 230px;
+    background-size: cover;
+    box-shadow: rgba(0,0,0,0.2) 0px 0px 20px;
+}
+
+.avatar_m{
+    background: rgba(0,0,0,0.2);
+    float: left;
+    display: block;
+    position: relative;
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    box-shadow: rgba(0,0,0,0.2) 0px 0px 20px;
+    margin: auto;
+}
+
+.profile_name {
+    display: block;
+    position: absolute;
+    top: calc(250px + 200px);
+    font-size: 40px;
+    color: #fff;
+    background: rgba(0,0,0,0.2);
+    padding: 10px 50px;
+    border-radius: 5px;
+    box-shadow: rgba(0,0,0,0.2) 0px 0px 20px;
+}
+
+.block_square{
+    position: relative;
+    float: left;
+    margin-top: -50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background: #fff;
+    height: auto;
+}
+
+.block_square_m{
+    position: relative;
+    float: left;
+    width: calc(100% - 40px);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -100px;
+    background: #fff;
+    height: auto;
+}
+.block_title1{
+    position: relative;
+    float: left;
+    height: 100px;
+}
+
+.block_square2{
+    position: relative;
+    float: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    background: #000;
+}
+.block_square3{
+    position: relative;
+    float: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    background: #000;
+}
+.border-violet{
+    display: block;
+    position: relative;
+    width: calc(100% - 30px);
+    min-height: calc(555px);
+    margin: 15px;
+    border: 2px solid #74117e;
+}
+
+.border-white{
+    margin: 15px;
+    border: 2px solid #fff;
+}
+.border-white_m{
+    margin: 10px;
+    border: 2px solid #fff;
+}
+
+.border-cyan{
+    margin: 15px;
+    border: 2px solid #BCF1F3;
+}
+
+.my-divider-vio{
+    display: block;
+    width: 100px;
+    margin: 10px auto 10px auto;
+    border-top: 2px solid #964B9F;
+}
+
+.my-divider-cian{
+    display: block;
+    width: 100px;
+    margin: auto;
+    border-top: 2px solid #44A4A1;
+}
+
+.my-divider-white{
+    display: block;
+    width: 100px;
+    margin: auto;
+    border-top: 2px solid #ffffff;
+}
+
+.wanna_wanna{
+    display: block;
+    margin-top: -20px;
+    margi-left: -20px;
+    margin-right: 80px;
+    margin-bottom: -23px;
+    font-size: 15px;
+    font-family: 'Proxima Nova Regular';
+}
+.wanna_wanna2{
+    display: block;
+    margin-top: -20px;
+    margi-left: -20px;
+    margin-right: 75px;
+    margin-bottom: -23px;
+    font-size: 15px;
+    font-family: 'Proxima Nova Regular';
+}
+.wanna_wanna3{
+    display: block;
+    margin-top: -20px;
+    margi-left: -20px;
+    margin-right: 210px;
+    margin-bottom: -23px;
+    font-size: 15px;
+    font-family: 'Proxima Nova Regular';
+}
+.wanna_wanna4{
+    display: block;
+    margin-top: -20px;
+    margi-left: -20px;
+    margin-right: 230px;
+    margin-bottom: -23px;
+    font-size: 15px;
+    font-family: 'Proxima Nova Regular';
+}
+
+.picture_block_1{
+    background: url(/nails/img/picture_1_block.png) center no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 500px;
+    width: 500px;
+    margin: 20px 0px 20px 0px;
+    display: block;
+    float: left;
+}
+.picture_block_2_m{
+    margin: 40px auto 20px auto;
+    background-size: contain;
+    height: calc(150px);
+    width: calc(150px);
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.2); z-index: 1;
+}
+.picture_block_1_m{
+    background: url(/nails/img/picture_1_block_m.png) center no-repeat;
+    background-size: contain;
+    position: relative;
+    margin: 20px 35px 10px 35px;
+    height: 300px;
+    width: calc(100% - 70px);
+    display: block;
+    float: left;
+    z-index: 10;
+}
+
+.badge_mark_m{
+    background: url(/nails/img/badge.svg) center no-repeat;
+    background-size: contain;
+    position: absolute;
+    z-index: 20;
+    width: 80px;
+    height: 80px;
+    right: calc(50% - 150px);
+    top: 40px;
+}
+
+.text_box_1{
+    display: block;
+    float: left;
+    margin-top: 80px;
+    width: calc(100% - 500px - 50px);
+}
+
+.text_box_1_m{
+    display: block;
+    float: left;
+    text-align: center;
+    width: calc(100%);
+}
+
+.modal_style_block{
+    width: calc(100% - 0px);
+}
+.modal_short_description{
+    display: block;
+    width: calc(100% - 30px);
+    padding-left: 30px;
+}
+.modal_short_description_mobile{
+    display: block;
+    width: calc(100% - 30px);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.modal_button{
+    display: block;
+    height: 60px;
+    margin: 20px 30px 20px 30px;
+    width: calc(100% - 60px);
+    background: #964B9F;
+    color: #fff;
+    font-family: "Proxima Nova Regular";
+    line-height: 60px;
+    text-align: center;
+}
+
+.birka_vio{
+    display: block;
+    background: #5C0F58;
+    float: right;
+    width: 35px;
+    height: calc(100% - 30px);
+    right: -50px;
+}
+
+.birka_text{
+    transform: rotate(90deg);
+    z-index: 20;
+}
+
+.top_menu_faded_m{
+    position: absolute;
+    top: -220px;
+    width: calc(100% - 20px);
+    height: 120px;
+    background: #5C0F58;
+    z-index: 9999;
+    padding: 10px;
+    transition: 300ms;
+    font-size: 12px;
+}
+
+.m_menu_top_button{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    background: #5C0F58;
+    text-align: center;
+    line-height: 38pt;
+    font-size: 16pt;
+    font-family: "Proxima Nova Regular";
+    letter-spacing: 2px;
+    color: #fff;
+    z-index: 2;
+}
+
+.m_menu_top_button:active .top_menu_faded_m{
+    top: 0px;
+}
+
+.m_menu_top_button:hover .top_menu_faded_m{
+    top: 0px;
+}
+
+.kvadrat{
+    display: block;
+    position: absolute;
+    width: calc(100% - 40px);
+    height: calc(100% - 50px - 150px);
+    margin: 50px 20px 80px 20px;
+    z-index: 3;"
+}

@@ -1,0 +1,338 @@
+body, html{
+}
+@font-face {
+    font-family: Century Gothic;
+    src: url(fonts/Century_Gothic.ttf);
+}
+@font-face {
+    font-family: Century Gothic Bold;
+    src: url(fonts/Century_Gothic_Bold.ttf);
+}
+p, a, div {
+	font-family: 'Century Gothic';
+	text-decoration: none;
+	color: #000;
+}
+
+h3 {
+	font-size: 14px;
+}
+
+p{
+	color: #fff;
+	background: #43b8ba;
+	font-size: 20px;
+	margin: 0px;
+	transition: 300ms;
+}
+
+.meta_block p{
+	color: #fff;
+	background: #43b8ba;
+	font-size: 30px;
+	padding-left: 20px;
+	margin-bottom: 5px;
+}
+.meta_block p:hover{
+	color: #fff;
+	background: #efac7c;
+	font-size: 30px;
+	padding-left: 20px;
+}
+.meta_block p:active{
+	color: #fff;
+	background: #efac7c;
+	font-size: 30px;
+	padding-left: 25px;
+}
+.body_style{
+	background: url(bg-web.jpg) no-repeat top center fixed;
+	background-size: cover;
+	height: 100%;
+}
+.name {
+	position: fixed;
+	left: 0%;
+	top: 0%;
+	padding-top: 5px;
+	width: 100%;
+	height: 10%;
+	min-height: 80px;
+	max-height: 130px;
+	z-index: 99;
+	text-align: center;
+	color: #000;
+	font-size: 15px;
+	line-height: 0px;
+	background: #fff;
+}
+
+.meta_block {
+	display: block;
+	position: fixed;
+	top: 10%;
+	left: 2.5%;
+	width: 95%;
+	height: 70%;
+	background: url(bg.jpg) no-repeat center;
+	background-size: cover;
+	border-radius: 15px;
+}
+
+.top_line{
+	position: absolute;
+	top: 5px;
+	left: 5%;
+	width: 90%;
+	height: 2px;
+	border-bottom: 4px solid white;
+	opacity: 0.5;
+}
+
+.bottom_line{
+	position: absolute;
+	bottom: 5px;
+	left: 5%;
+	width: 90%;
+	height: 1px;
+	border-bottom: 4px solid white;
+	opacity: 0.5;
+}
+.avatar {
+	position: absolute;
+	top: 0%;
+	width: 40%;
+	height: 100%;
+	min-height: 400px;
+	background: url(avatar.png)no-repeat center;
+	background-size: 60%;
+	z-index: 10;
+}
+.about{
+	position: absolute;
+	width: 25%;
+	left: 7%;
+	bottom: 25%;
+	z-index: 20;
+}
+.info_block{
+	position: absolute;
+	top: 25%;
+	right: 0%;
+	width: 60%;
+	height: calc(50% - 10px);
+	min-height: 230px;
+	background: rgba(0,0,0,0.3);
+	z-index: 0;
+	border-radius: 20px;
+	padding-left: 40%;
+	padding-top: 20px;
+}
+
+.bottom_menu {
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	height: 130px;
+	background: #fff;
+	z-index: 600;
+}
+.email{
+	position: fixed;
+	bottom: 70px;
+	left: 25%;
+	height: 50px;
+	width: 50%;
+	text-align: center;
+	font-size: larger;
+}
+.social_icons{
+	position: fixed;
+	bottom: 10px;
+	left: 25%;
+	height: 50px;
+	width: 50%;
+}
+.vk{
+	position: relative;
+	float: left;
+	height: 100%;
+	width: 25%;
+	opacity: 0.5;
+	transition: 300ms;
+	background: #fff url(logos/vk.png) no-repeat center;
+	background-size: contain;
+
+}
+.twitter{
+	position: relative;
+	float: left;
+	height: 100%;
+	width: 25%;
+	opacity: 0.5;
+	transition: 300ms;
+	background: url(logos/twitter.png) no-repeat center;
+	background-size: contain;
+}
+.insta{
+	position: relative;
+	float: left;
+	height: 100%;
+	width: 25%;
+	opacity: 0.5;
+	transition: 300ms;
+	background: #fff url(logos/insta.png) no-repeat center;
+	background-size: contain;
+}
+.yt{
+	position: relative;
+	float: left;
+	height: 100%;
+	width: 25%;
+	opacity: 0.5;
+	transition: 300ms;
+	background: #fff url(logos/yt.png) no-repeat center;
+	background-size: contain;
+}
+.vk:hover{
+	opacity: 1;
+	background: #efac7c url(logos/vk_hov.png) no-repeat center;
+	background-size: contain;
+	margin-top: -10px;
+	height: 120%;
+}
+.twitter:hover{
+	opacity: 0.1;
+}
+.insta:hover{
+	opacity: 1;
+	background: #efac7c url(logos/insta_hov.png) no-repeat center;
+	background-size: contain;
+	margin-top: -10px;
+	height: 120%;
+}
+.yt:hover{
+	opacity: 1;
+	background: #efac7c url(logos/yt_hov.png) no-repeat center;
+	background-size: contain;
+	margin-top: -10px;
+	height: 120%;
+}
+.mobacon{
+	position: fixed;
+	left: 8%;
+	top: 17%;
+	width: 40%;
+	height: 60%;
+	background: #43b8ba url(artbook.png) no-repeat bottom left;
+	background-size: 80%;
+}
+.gamedude{
+	position: fixed;
+	right: 8%;
+	top: 17%;
+	width: 40%;
+	height: 60%;
+	background: #43b8ba url(g_man.png) no-repeat bottom left;
+	background-size: 50%;
+}
+
+.gamedude:hover .proj_title{
+	background: #efac7c;
+	width: 66%;
+	line-height: 45px;
+	font-size: 45px;
+	margin-left: 17%;
+}
+.mobacon:hover .proj_title{
+	background: #efac7c;
+	width: 66%;
+	line-height: 45px;
+	font-size: 45px;
+	margin-left: 17%;
+}
+.proj_title{
+	position: relative;
+	display: block;
+	float: left;
+	background: #000000;
+	color: #fff;
+	font-size: 40px;
+	line-height: 40px;
+	width: 60%;
+	margin-left: 20%;
+	margin-top: 5px;
+	text-align: center;
+	transition: 300ms;
+}
+.link_spot{
+	position: absolute;
+	display: block;
+	float: right;
+	background: #000000;
+	color: #fff;
+	font-size: 26px;
+	line-height: 28px;
+	width: 60%;
+	right: 5px;
+	bottom: 5px;
+	text-align: center;
+	transition: 300ms;
+}
+.link_spot:hover{
+	background: #efac7c;
+	color: #fff;
+}
+.proj_description{
+	position: absolute;
+	padding: 5px;
+	display: block;
+	float: right;
+	background: #fff;
+	color: #000;
+	font-size: 24px;
+	line-height: 24px;
+	width: 60%;
+	right: 10px;
+	top: 80px;
+	text-align: left;
+	transition: 300ms;
+}
+
+.video{
+	display: block;
+	position: relative;
+	margin-top: 50px;
+	margin-left: 20px;
+	float: left;
+	width: 300px;
+	height: 169px;
+}
+
+.name_video{
+	position: relative;
+	display: block;
+	float: left;
+	background: #000000;
+	color: #fff;
+	font-size: 24px;
+	line-height: 24px;
+	width: 100%;
+	text-align: center;
+	transition: 300ms;
+}
+
+.stats_video {
+	position: relative;
+	display: block;
+	float: left;
+	background: #fff;
+	color: #000;
+	font-size: 20px;
+	line-height: 20px;
+	padding: 5px;
+	width: calc(100% - 10px);
+	text-align: left;
+	transition: 300ms;
+}

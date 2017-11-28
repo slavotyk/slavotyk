@@ -1,0 +1,340 @@
+
+
+.top_menu{
+    display: block;
+    position: relative;
+    float: left;
+    height: 40px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 5;
+    background: #fff;
+}
+
+.top_menu_faded{
+    display: block;
+    position: absolute;
+    float: left;
+    height: 40px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 5;
+}
+
+.menu_button{
+    display: block;
+    float: left;
+    position: relative;
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    width: 170px;
+    background: #fff;
+    color: rgba(60,71,80,1);
+    transition: 200ms;
+    box-shadow: rgba(0,0,0,0.0) 0px 0px 0px;
+    border-bottom: 0px solid rgba(60,71,80,1);
+}
+
+.menu_button:hover{
+    text-decoration: none;
+    background: rgba(60,71,80,1);
+    color: #fff;
+    box-shadow: rgba(0,0,0,0.4) 0px 0px 30px;
+    border-bottom: 0px solid rgba(60,71,80,1);
+}
+
+.menu_faded{
+    display: block;
+    float: left;
+    position: relative;
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    width: 170px;
+    color: #777;
+    transition: 200ms;
+}
+
+.menu_faded:hover{
+    text-decoration: none;
+    color: #000;
+}
+
+.avatar{
+    background: rgba(0,0,0,0.2);
+    display: block;
+    position: absolute;
+    top: 250px;
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    box-shadow: rgba(0,0,0,0.2) 0px 0px 20px;
+}
+
+.profile_name {
+    display: block;
+    position: absolute;
+    top: calc(250px + 200px);
+    font-size: 40px;
+    color: #fff;
+    background: rgba(0,0,0,0.2);
+    padding: 10px 50px;
+    border-radius: 5px;
+    box-shadow: rgba(0,0,0,0.2) 0px 0px 20px;
+}
+
+.block_square{
+    position: relative;
+    float: left;
+    background: #fff;
+    width: 90%;
+    margin: 5% 5% 5% 5%;
+    min-height: 300px;
+}
+
+.project_block{
+    display: block;
+    position: relative;
+    float: left;
+    width: calc(100% - 100px);
+    height: calc(300px - 50px);
+    margin: 100px 50px 0px 50px;
+    background: #fff;
+    box-shadow: rgba(0,0,0,0.2) 0px 0px 20px;
+    opacity: 0.5;
+    transition: 200ms;
+}
+
+.project_block p{
+    color: rgba(0,0,0,1);
+    text-shadow: rgba(0,0,0,0.2) 0px 0px 0px;
+    transition: 200ms;
+}
+
+.more_info_href{
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background: #000;
+    margin: 10px;
+    width: 200px;
+    height: 30px;
+    box-shadow: rgba(255,255,255,0) 0px 0px 20px;
+    transition: 200ms;
+    color: #000;
+    line-height: 40px;
+    font-size: 20px;
+    text-align: center;
+    cursor: hand;
+}
+
+.project_avatar{
+    display: block;
+    position: relative;
+    float: left;
+    width: 250px;
+    height: 250px;
+    filter: grayscale(100%) brightness(0.7);
+    transition: 200ms;
+}
+
+.project_block:hover{
+    opacity: 1;
+}
+.project_block:hover .project_avatar{
+    filter: grayscale(0%) brightness(1.1);;
+}
+.project_block:hover .mobacon_avatar{
+    background-size: 110%;
+}
+.project_block:hover .mobacon_title{
+    color: rgba(255,255,255,1);
+    text-shadow: rgba(0,0,0,0.2) 0px 0px 5px;
+}
+.project_block:hover p{
+    color: rgba(255,255,255,1);
+    text-shadow: rgba(0,0,0,0.2) 0px 0px 5px;
+}
+
+.project_block:hover .more_info_href{
+    width: 250px;
+    height: 40px;
+    box-shadow: rgba(255,255,255,1) 0px 0px 20px;
+    background: #fff;
+}
+
+.project_block:hover .more_info_href:hover{
+    width: 250px;
+    height: 40px;
+    background: #B2E561;
+    color: #fff;
+    box-shadow: rgba(178,229,97,1) 0px 0px 20px;
+}
+
+.mobacon_avatar{
+    background: url(/ui/img/mobacon_pic_1.png) no-repeat center;
+    background-size: 105%;
+    transition: 200ms;
+}
+.mobacon_bg{
+    background: url(/ui/img/mobacon_bg.png) repeat-x center;
+    background-size: contain;
+    transition: 200ms;
+}
+.mobacon_title{
+    transition: 200ms;
+    color: rgba(0,0,0,1);
+    text-shadow: rgba(0,0,0,0.2) 0px 0px 0px;
+    padding: 20px 0px 0px 30px;
+}
+.project_card{
+    display: block;
+    position: relative;
+    float: left;
+    width: calc(100% - 250px - 60px);
+    height: calc(250px - 60px);
+    padding: 30px;
+}
+
+.portfolio_heading{
+    display: block;
+    position: relative;
+    float: left;
+    width: calc(100% - 0px);
+    height: calc(200px);
+    margin: 60px 0px 20px 0px;
+    padding: 0px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    text-align: center;
+}
+
+.portfolio_heading_card{
+    display: block;
+    position: relative;
+    float: left;
+    width: 150px;
+    height: 150px;
+    background: rgba(255,255,255,0.5);
+    margin: 25px;
+    overflow: hidden;
+    text-shadow: rgba(0,0,0,0.2) 0px 0px 10px;
+}
+
+.portfolio_heading_card_title{
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background: #fff;
+    transition: 200ms;
+    color: #000;
+    opacity: 0;
+}
+.portfolio_heading_card:hover .portfolio_heading_card_title{
+    opacity: 1;
+}
+
+.portfolio_heading_card_logo{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.portfolio_container{
+    display: block;
+    position: absolute;
+    float: left;
+    top: calc(100% + 100% + 100% + 200px + 120px - 40px);
+    width: calc(100% - 0px);
+    height: calc(100% - 200px - 120px + 40px);
+    margin:  0px;
+    padding: 0px;
+}
+.portfolio_container_mockup_mobile{
+    display: block;
+    position: relative;
+    float: left;
+    background: url(../img/iphone_6_plus_mockup.png) no-repeat center;
+    background-size: cover;
+    height: 470px;
+    width: 231px;
+    margin-left: 100px;
+}
+
+.portfolio_container_mockup_mobile_frame{
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: calc(100% - 30px);
+    height: calc(100% - 118px);
+    margin: 60px 15px 58px 15px;
+}
+.iframe_iphone_8_plus{
+    display: block;
+    position: absolute;
+    top: -184px;
+    left: -105px;
+    width: 410px;
+    height: 716px;
+    transform: scale(0.5);
+}
+
+.portfolio_container_description{
+    display: block;
+    position: relative;
+    float: left;
+    width: calc(100% - 231px - 100px - 120px - 60px);
+    margin: 60px;
+    padding: 30px;
+    background: rgba(0,0,0,0.6);
+    box-shadow: rgba(0,0,0,0.4) 0px 0px 10px;
+}
+.portfolio_container_description h3{
+    color: #fff;
+    text-shadow: rgba(0,0,0,0.8) 2px 2px 2px;
+    text-align: center;
+}
+.portfolio_container_description p{
+    color: #fff;
+    text-shadow: rgba(0,0,0,0.8) 2px 2px 2px;
+}
+
+.portfolio_container_description a{
+    color: #fff;
+    text-shadow: rgba(0,0,0,0.8) 2px 2px 2px;
+}
+
+.contacts_container{
+    display: block;
+    position: relative;
+    float: left;
+    width: calc(100% - 100px);
+    height: calc(100% - 100px);
+    padding: 50px;
+    color: #fff;
+    text-align: center;
+}
+
+.contacts_container h2, h3{
+    color: #fff;
+    text-shadow: rgba(0,0,0,0.4) 2px 2px 2px;
+}
+
+.contacts_container p {
+    color: #fff;
+    text-shadow: rgba(0,0,0,0.4) 2px 2px 2px;
+}
+.contacts_container a{
+    color: #fff;
+    text-shadow: rgba(0,0,0,0.4) 2px 2px 2px;
+}
+.contacts_container a:hover{
+    color: #fff;
+    text-shadow: rgba(0,0,0,0.4) 2px 2px 2px;
+}
